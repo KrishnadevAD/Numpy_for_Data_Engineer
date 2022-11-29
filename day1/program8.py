@@ -1,0 +1,16 @@
+import numpy as np
+mygrid =np.arange(16).reshape(4,4)
+print("it is mygrid section",mygrid)
+upper,lower = np.vsplit(mygrid,[2])
+print("it is the upper section",upper)
+#print("mid",mid)
+print("It is the lower section",lower)
+upper,mid,lower = np.vsplit(mygrid,[2,3])
+print("it is the new upper section",upper)
+print("it is the new mid section",mid)
+print("it is the new lower section",lower)
+# hsplit
+upper,mid,lower = np.hsplit(mygrid,[2,3])
+print("it is the newest upper",upper)
+print("it is the newest mid",mid)
+print("it is the newestlower",lower)

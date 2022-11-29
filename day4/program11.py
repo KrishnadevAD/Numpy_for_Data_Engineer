@@ -1,0 +1,1 @@
+#given a 1D array negate all the elements which are between 3 and 8 in place

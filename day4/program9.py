@@ -1,0 +1,1 @@
+#create a 3*3 array with random values  and find minimum and maximum
